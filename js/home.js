@@ -4,7 +4,7 @@ document.getElementById('add-money-btn').addEventListener('click', function (eve
 
     const yourPassword = document.getElementById('add-password-input').value;
 
-    if (yourPassword === '1') {
+    if (yourPassword === '2') {
         const availableBalance = document.getElementById('available-balance').innerText;
         const addMoneyInputNUmber = parseFloat(addAmountInput);
         const balanceNumber = parseFloat(availableBalance)

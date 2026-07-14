@@ -30,8 +30,8 @@
                     <button id="" class="btn btn-lg">Add Money</button>
                     <button id=" " class="btn btn-lg">Cash Out</button>
                 </div>
-                <!--  -->
-                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <!-- add money start  -->
+                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl hidden">
                     <div class="card-body">
                         <fieldset class="fieldset">
                             <label class="label">Amount</label>
@@ -43,10 +43,26 @@
                         </fieldset>
                     </div>
                 </div>
+                <!-- add Money End -->
+                 <!-- cash Out start -->
+                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <div class="card-body">
+                        <fieldset class="fieldset">
+                            <label class="label">Amount</label>
+                            <input id="cash-out-input" type="text" class="input" placeholder="Amount" />
+                            <label class="label">Password</label>
+                            <input id="cash-password-input" type="password" class="input" placeholder="Password" />
+                            
+                            <button id="cash-out-btn" class="btn btn-neutral mt-4">Cash Out</button>
+                        </fieldset>
+                    </div>
+                </div>
+                <!-- cahs out end -->
             </div>
         </div>
     </main>
     <script src="./js/home.js"></script>
+    <script src="./js/cashOut.js"></script>
 </body>
 
 </html>

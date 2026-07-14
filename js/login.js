@@ -3,7 +3,7 @@ document.getElementById('btn-login').addEventListener('click', function(event){
 
     const yourNumber = document.getElementById('your-number').value;
     const yourPassword = document.getElementById('your-password').value;
-    if(yourNumber ==='1' && yourPassword === 'ajim123'){
+    if(yourNumber ==='1' && yourPassword === '1'){
         console.log('WellCome to Login');
         window.location.href='./home.html'
     }
